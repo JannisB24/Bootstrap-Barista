@@ -6,6 +6,21 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <style scoped>
+      @media only screen and (min-width: 768px) {
+        .first {
+        padding-right: 20px;
+        }
+        .second {
+          padding-left: 10px; 
+          padding-right: 10px;
+        }
+        .third {
+          padding-left: 20px;
+        }
+      }
+    </style>
+
     <title>BootstrapBarista Coffeshop</title>
   </head>
   <body>
@@ -54,7 +69,7 @@
             I wanted them to make a stop, to let them breathe for a second. Thats when the idea of a Coffeeshop came to my mind. With my best friend Carlos I made this dream come true. We opened in 2019 and since then help people to find short moments of peace in a turbulent city. </p>
         </div>
       </div>
-      <div class="col-md-6 col-12 pr-0">
+      <div class="col-md-6 col-12 px-0">
         <div id="baristaGallery" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#baristaGallery" data-slide-to="0" class="active"></li>
@@ -93,7 +108,7 @@
     </div>
 
     <div class="row justify-content-center my-5" style="width: 75%; margin: auto;">
-        <div class="col-md-4 col-12 pl-0" style="padding-right: 20px;">
+        <div class="col-md-4 col-12 pl-md-0 first">
             <div class="card" style="height: 100%;">
                 <img src="images/card-1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -102,7 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-12" style="padding-left: 10px; padding-right: 10px;">
+        <div class="col-md-4 col-12 second">
             <div class="card" style="height: 100%;">
                 <img src="images/card-2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -111,7 +126,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-12 pr-0" style="padding-left: 20px;">
+        <div class="col-md-4 col-12 pr-md-0 third">
             <div class="card" style="height: 100%;">
                 <img src="images/card-3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
